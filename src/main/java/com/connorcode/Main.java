@@ -32,7 +32,7 @@ public class Main {
             for (int i = 0; i < options; i++) {
                 Optional<String> answer = question.options.get(i).answer;
                 if (answer.isEmpty()) continue;
-                toPrint.append(String.format(" %s %d) %s\n", i == options - 1 ? "┕" : "│", i + 1, answer.get()));
+                toPrint.append(String.format(" %s %d) %s\n", i == options - 1 ? "└" : "│", i + 1, answer.get()));
             }
 
             // Print new question
