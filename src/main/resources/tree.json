@@ -1,0 +1,153 @@
+{
+  "text": "Is it egg shaped?",
+  "options": [
+    {
+      "answer": "Yes",
+      "text": "Is it boiled?",
+      "options": [
+        {
+          "answer": "Yes",
+          "text": "Runny Yoke?",
+          "options": [
+            {
+              "answer": "Yes",
+              "end": "Soft Boiled"
+            },
+            {
+              "answer": "No",
+              "end": "Hard Boiled"
+            }
+          ]
+        },
+        {
+          "answer": "No",
+          "text": "Originated in Asia?",
+          "options": [
+            {
+              "answer": "Yes",
+              "text": "Do you need to cure it?",
+              "options": [
+                {
+                  "answer": "Yes",
+                  "end": "Century Egg"
+                },
+                {
+                  "answer": "No",
+                  "end": "Tea Egg"
+                }
+              ]
+            },
+            {
+              "answer": "No",
+              "end": "Deviled"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "answer": "No",
+      "text": "Cooked in a pan?",
+      "options": [
+        {
+          "answer": "Yes",
+          "text": "Does it have non-egg ingredients?",
+          "options": [
+            {
+              "answer": "Yes",
+              "text": "Meat / Sausage?",
+              "options": [
+                {
+                  "answer": "Yes",
+                  "end": "Omelet"
+                },
+                {
+                  "answer": "No",
+                  "end": "Cheesey"
+                }
+              ]
+            },
+            {
+              "answer": "No",
+              "text": "Needs a spatula?",
+              "options": [
+                {
+                  "answer": "Yes",
+                  "text": "Flip?",
+                  "options": [
+                    {
+                      "answer": "Yes",
+                      "end": "Fried Eggs"
+                    },
+                    {
+                      "answer": "No",
+                      "end": "Scrambled"
+                    }
+                  ]
+                },
+                {
+                  "answer": "No",
+                  "text": "Sunny in the name?",
+                  "options": [
+                    {
+                      "answer": "Yes",
+                      "end": "Sunny Side Up"
+                    },
+                    {
+                      "answer": "No",
+                      "end": "Over Easy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "answer": "No",
+          "text": "Liquid Involved",
+          "options": [
+            {
+              "answer": "Yes",
+              "text": "Christmas Related?",
+              "options": [
+                {
+                  "answer": "Yes",
+                  "end": "Egg Nog"
+                },
+                {
+                  "answer": "No",
+                  "text": "Was it cooked?",
+                  "options": [
+                    {
+                      "answer": "Yes",
+                      "end": "Poached"
+                    },
+                    {
+                      "answer": "No",
+                      "end": "Raw!"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "answer": "No",
+              "text": "Mayo?",
+              "options": [
+                {
+                  "answer": "Yes",
+                  "end": "Egg-Salad"
+                },
+                {
+                  "answer": "No",
+                  "end": "Baked Egg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
